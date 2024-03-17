@@ -1,0 +1,17 @@
+body {
+    background-image: linear-gradient( to bottom right, lightblue, blue);
+    height: 100vh;
+    /* to center content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+body a{
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, blue, lightblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
